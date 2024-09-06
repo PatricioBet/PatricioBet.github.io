@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#certificaciones">Certificaciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>¡Hola! Soy Patricio Betancourt</h1>
+        <p>Desarrollador apasionado por la tecnología y la innovación.</p>
+    </section>
+
+    <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div class="carousel-container">
+            <button class="carousel-button prev" id="prev-projects">&#10094;</button>
+            <div class="carousel" id="projects-carousel">
+            </div>
+            <button class="carousel-button next" id="next-projects">&#10095;</button>
+        </div>
+    </section>
+    <section id="certificaciones">
+        <h2>Certificaciones y Logros</h2>
+        <div class="carousel-container">
+            <button class="carousel-button prev" id="prev-cert">&#10094;</button>
+            <div class="carousel" id="certifications-carousel">
+            </div>
+            <button class="carousel-button next" id="next-cert">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Soy un desarrollador con experiencia en desarrollo web y móvil. Mi objetivo es crear soluciones eficientes que resuelvan problemas reales, usando tecnologías de vanguardia</p>
+        <a href="CV.pdf" download="CV-TuNombre.pdf" class="btn">Descargar CV</a>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

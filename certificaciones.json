@@ -1,0 +1,26 @@
+{
+    "certificaciones": [
+      {
+        "titulo": "Certificación en Machine Learning",
+        "institucion": "Coursera",
+        "fecha": "Enero 2024",
+        "imagen": "certificados/machine_learning.png",
+        "descripcion": "Curso avanzado de Machine Learning y sus aplicaciones en diferentes industrias."
+      },
+      {
+        "titulo": "Concurso Nacional de Programación",
+        "institucion": "Ministerio de Educación",
+        "fecha": "Noviembre 2023",
+        "imagen": "certificados/concurso_programacion.png",
+        "descripcion": "Ganador del primer lugar en la competencia nacional de programación."
+      },
+      {
+        "titulo": "Curso de Desarrollo Web",
+        "institucion": "Platzi",
+        "fecha": "Agosto 2023",
+        "imagen": "certificados/desarrollo_web.png",
+        "descripcion": "Curso completo sobre tecnologías de desarrollo web, incluyendo HTML, CSS y JavaScript."
+      }
+    ]
+  }
+  
